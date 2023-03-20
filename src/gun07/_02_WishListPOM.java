@@ -31,9 +31,7 @@ public class _02_WishListPOM extends BaseDriver {
         wle.wishBtnList.click();
         Tools.listContainsString(wle.wishTableNames, wishItemText);
 
-
-
     }
 
-    
+
 }
